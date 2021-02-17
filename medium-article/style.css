@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&family=Montserrat:ital@1&display=swap');
+body {
+  margin: 0;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+.header {
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px;
+}
+.banner {
+  color: white;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 130px 0;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.btn-center{
+  text-align: center;
+}
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 20px;
+    text-decoration: none;
+  }
+    .btn:hover{
+      background-color: transparent;
+      border: 3px solid black;
+      color: black;
+    }
+/* QUERIES */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .header {
+    font-size: 60px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
